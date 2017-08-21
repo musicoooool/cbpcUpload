@@ -4,7 +4,7 @@ SET FOREIGN_KEY_CHECKS=0;
 -- ----------------------------
 -- Table structure for tbl_attach
 -- ----------------------------
-DROP TABLE IF EXISTS `gallery`;
+DROP TABLE IF EXISTS `tbl_attach`;
 CREATE TABLE `tbl_attach` (
   `id` int(11) NOT NULL AUTO_INCREMENT,
   `uid` int(11) DEFAULT NULL,
